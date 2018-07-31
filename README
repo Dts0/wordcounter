@@ -1,0 +1,11 @@
+in.txt	输入
+out.txt	去掉不识别字符后的输入
+result.txt	结果
+
+当前规则：
+所有大写字母转换为小写，忽略所有非字母或'的字符
+输出时，只输出大于3个字母的单词
+
+#编译运行
+g++ main.cpp -o main.out -std=c++11;./main.out
+
